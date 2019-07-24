@@ -1,2 +1,2 @@
 # exercices_OCR
-Des exercice pour les étudaitn openclassroom
+Des exercices pour les étudiants OCR
