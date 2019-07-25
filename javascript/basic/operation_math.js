@@ -1,3 +1,8 @@
+/*
+CREER DES FONCTIONS MATHEMATIQUE PLUS COMPLEXES
+*/
+
+
 // Etape 1: fonction puissance
 
 // refaire la fonction puissance () sans utiliser Math, mais juste le "*"
