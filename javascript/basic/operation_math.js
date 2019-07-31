@@ -7,9 +7,9 @@ CREER DES FONCTIONS MATHEMATIQUE PLUS COMPLEXES
 
 // refaire la fonction puissance () sans utiliser Math, mais juste le "*"
 
-console.log('ALaPuissance(2, 1): '), ALaPuissance(2, 1) // retourne 2
-console.log('ALaPuissance(2, 4): '), ALaPuissance(2, 4) // retourne 16
-console.log('ALaPuissance(5, 2): '), ALaPuissance(5, 2) // retourne 25
+console.log('ALaPuissance(2, 1): ', ALaPuissance(2, 1)) // retourne 2
+console.log('ALaPuissance(2, 4): ', ALaPuissance(2, 4)) // retourne 16
+console.log('ALaPuissance(5, 2): ', ALaPuissance(5, 2)) // retourne 25
 
 
 // Etape 2: fonction de division avec reste
