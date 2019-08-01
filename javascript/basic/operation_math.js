@@ -35,3 +35,39 @@ console.log('afficheResultatDivision(6, 3): ', afficheResultatDivision(6, 3))
 // retourne "Le résultat de la division de 6 par 3, donne 2 avec le reste 0"
 console.log('afficheResultatDivision(80, 7): ', afficheResultatDivision(80, 7))
 // retourne "Le résultat de la division de 80 par 7, donne 11 avec le reste 23"
+
+
+
+// Etape 4: créer une fonction qui génère la séquence de fibonicci
+// https://fr.wikipedia.org/wiki/Suite_de_Fibonacci#Nombres_de_Fibonacci
+// Dans la séquence de fibonicci chaque nouveau nombre est égale à la somme des 2 derniers
+// Si on a [1, 2], le prochaine nombre est 1+2 = 3
+// Si on a [1, 2, 3, 5], le prochaine nombre est 3+5 = 8
+let fibonicciSequences = [0, 1]
+
+// La fonction addNumber doit faire le calcule et rajouter le nombre à la séquence
+addNumber() // fibonicciSequences est maintenant égale a [0, 1, 1]
+addNumber() // fibonicciSequences est maintenant égale a [0, 1, 1, 2]
+addNumber() // fibonicciSequences est maintenant égale a [0, 1, 1, 2, 3]
+addNumber() // fibonicciSequences est maintenant égale a [0, 1, 1, 2, 3, 5]
+
+// La fonction displayFibonicci affiche la valeur de fibonicciSequences
+displayFibonicci() // affiche [0, 1, 1, 2, 3, 5]
+
+
+// Etape 4 Bonus: génération de fibonicci jusqu'à un nombre
+// En réutilisant la fonction "addNumber",
+// on créer une fonction qui vas générer la séquence jusqu'a un certain nombre
+
+// la fonction generateUntil vas appeler la fonction "addNumber" 
+// jusqu'à ce que le numéro de la séquence soit supérieur a celui donné
+generateUntil(3) 
+// fibonicciSequences est maintenant égale a [0, 1, 1, 2, 3]
+generateUntil(14) 
+// fibonicciSequences est maintenant égale a 
+//[0, 1, 1, 2, 3, 5, 8, 13, 21]
+generateUntil(900) 
+// fibonicciSequences est maintenant égale a 
+// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
+
+displayFibonicci() // affiche [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
