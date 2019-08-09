@@ -41,16 +41,20 @@ console.log(calculer(2, "*", 0));  // 0
 console.log(calculer(12, "/", 0)); // Infinity
 
 
-
-
-
 // Exercice 10:
+// Le code suivant retourne une erreur, rajouter ce qu'y est necessaire pour qu'il marche
+let panier = { "pomme": 7}
+panier.pomme = panier.pomme + 4
+panier.banane = panier.banane + 2
+
+
+
+
+// Exercice 40:
 // Créer une fonction qui écrit tout les chiffres pair jusqu'à 20
 
 
-
-
-// Exercice 11:
+// Exercice 41:
 // fonction affiche pour chaque lettre de l'alphabet, si c'est un consonne ou une voyelle
 // example : "a: voyelle"
 let alphabet = [
@@ -60,7 +64,7 @@ let alphabet = [
 
 
 
-// exercice 20:
+// exercice 50:
 // Fonction qui dis quel sera le jour après celui passé en paramêtre
 // example 1: si je passe "lundi" on me renvoie "mardi"
 // example 2: si je passe "vendredi" on me renvoie "samedi"
