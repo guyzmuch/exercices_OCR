@@ -13,7 +13,7 @@
 
 
 // Exercice 4:
-// fonction affiche si la lettre passé est une consonne ou une voyelle
+// fonction affiche si la lettre passé est une consonne ou une voyelle ou n'est pas reconnu
 
 
 
@@ -46,6 +46,16 @@ console.log(calculer(12, "/", 0)); // Infinity
 let panier = { "pomme": 7}
 panier.pomme = panier.pomme + 4
 panier.banane = panier.banane + 2
+
+// Exercice 11:
+// créer une fonction qui fait la multiplsaction de tout les chiffre d'un tableau
+// example 1: arrayMultiply([1, 2, 3, 4]) === 24
+// example 2: arrayMultiply([10, 5, 2, 2.5, 4, 100]) === 100000
+
+// Exercice 12:
+// créer une fonction qui retourne le plus petit chiffre de la liste
+// example 1: smallest([10, 28, 3, 4]) === 3
+// example 2: smallest([10, 5, 2, 1.5, 4, 100]) === 1.5
 
 
 
