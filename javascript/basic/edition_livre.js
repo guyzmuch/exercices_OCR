@@ -1,3 +1,5 @@
+// les textes proviennent de "La cathédrale et le bazar"
+
 /*
 
 CREER LES FONCTIONS "addNewPhrase", "displayBook" ET "displayBookSize" AFIN DE CORRESPONDRE AUX RESULTATS PREVUT
