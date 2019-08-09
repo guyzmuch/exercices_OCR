@@ -89,7 +89,7 @@ let today = "lundi"
 
 
 // exercice 51:
-// Remplacer dans le text les mot par ceux du dictionnaire pour retrouver le texte orignal
+// Remplacer dans le texte les mots par ceux du dictionnaire pour retrouver le texte orignal
 let dictionnaire = {
   "semaines": "années"
   "Windows": "Linux",
@@ -99,3 +99,8 @@ let dictionnaire = {
 
 let texte = "Windows a remis en cause une petite partie de ce que je croyais savoir. J'avais prêché l'évangile selon MacOS sur l'utilisation de petits outils, le prototypage rapide et la programmation évolutive, depuis des semaines"
 
+
+
+// exercice 52:
+// rajouter une majuscule sur la première lettre de chaque mot du texte
+let texte = "La tradition de partage du code source du monde Unix a toujours favorisé la réutilisation de code"
