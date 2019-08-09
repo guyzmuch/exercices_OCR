@@ -66,14 +66,22 @@ panier.banane = panier.banane + 2
 // Exercice 40:
 // Créer une fonction qui écrit tout les chiffres pair jusqu'à 20
 
-
 // Exercice 41:
+// créer une fonciton qui nous dis si le chiffre fais partie de la suite de Fibonicci
+// (on s'arrêtera aux chiffres present dans la tableau en dessous)
+// example 1: isFibonicci(4) // false
+// example 2: isFibonicci(13) // true
+// example 3: isFibonicci('p') // false
+let fibonicciSequences  = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+// Exercice 42:
 // fonction affiche pour chaque lettre de l'alphabet, si c'est un consonne ou une voyelle
 // example : "a: voyelle"
 let alphabet = [
   "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
   "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
 ]
+
 
 
 
