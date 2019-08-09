@@ -1,3 +1,6 @@
+// les textes proviennent de "La cathédrale et le bazar"
+
+
 // Exercice 1:
 // Une fonction qui demande à l'utilisateur sont nom, puis affiche "bonjour" avec le prénom en console
 
@@ -82,3 +85,17 @@ let alphabet = [
 let weekDay = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 
 let today = "lundi"
+
+
+
+// exercice 51:
+// Remplacer dans le text les mot par ceux du dictionnaire pour retrouver le texte orignal
+let dictionnaire = {
+  "semaines": "années"
+  "Windows": "Linux",
+  "MacOS": "Unix",
+  "petite": "grande",
+}
+
+let texte = "Windows a remis en cause une petite partie de ce que je croyais savoir. J'avais prêché l'évangile selon MacOS sur l'utilisation de petits outils, le prototypage rapide et la programmation évolutive, depuis des semaines"
+
