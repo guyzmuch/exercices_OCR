@@ -16,7 +16,8 @@
 
 
 // Exercice 4:
-// fonction affiche si la lettre passé est une consonne ou une voyelle ou n'est pas reconnu
+// fonction affiche si le mot passé en paramêtre est conjonctions de coordination ou n'en est pas
+// Les conjonctions de coordination sont: mais, ou, et, donc, or, ni, car
 
 
 
